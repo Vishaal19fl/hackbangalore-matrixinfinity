@@ -25,13 +25,14 @@ WavePoint is a Freelancer platform aims to connect freelancers and clients in an
 - **Featured Freelancers:** Showcase top talents in a dedicated section.
 
 ### For Freelancers:
-
+- **Upload services:** Can upload services / gigs that he can potentially provide.
 - **Proposal Submission:** Freelancers can submit proposals for projects.
 - **Multi-Freelancer Teams:** Option to work in teams, splitting wages based on workload.
-- **Smart Business Card:** NFC and QR code enabled business card for networking.
+- **Smart Business Card:** NFC and QR code enabled business card for networking, which can be availed by premium plan users.
 - **Learning Opportunities:** Access to courses for skill development.
 - **Mentoring Sessions:** Learn from successful freelancers through mentoring.
 - **Virtual Workshops:** Participate in virtual events and workshops for networking and skill enhancement.
+
 
 ### Empowering Rural Artisans:
 
