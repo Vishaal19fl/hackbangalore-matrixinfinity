@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Gigs.scss";
-import GigCard from "../../components/gigCard/GigCard";
+import ServiceCard from "../../components/serviceCard/ServiceCard";
 import { useQuery } from "@tanstack/react-query";
 import newRequest from "../../utils/newRequest";
 import { useLocation } from "react-router-dom";
@@ -78,7 +78,7 @@ function Gigs() {
             ? "loading"
             : error
             ? "Something went wrong!"
-            : data.map((gig) => <GigCard key={gig._id} item={gig} />)}
+            : data.map((gig) => <ServiceCard key={gig._id} item={gig} />)}
         </div>
       </div>
     </div>
