@@ -1,10 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Slide.scss";
+import Slider from "infinite-react-carousel";
 
-function Slide() {
+const Slide = ({ children, slidesToShow, arrowsScroll }) => {
+  const isMobile = window.innerWidth <= 768; // Adjust the breakpoint as needed
+
   return (
-    <h1>Slide</h1>
+    <div className='slide'>
+      <div className="container">
+        <Slider slidesToShow={isMobile ? 1 : slidesToShow} arrowsScroll={arrowsScroll}>
+          {children}
+        </Slider>
+      </div>
+    </div>
   );
-}
+};
+
 export default Slide;
