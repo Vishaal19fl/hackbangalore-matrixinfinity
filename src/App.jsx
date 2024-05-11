@@ -10,15 +10,13 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Add from "./pages/add/Add";
 import Orders from "./pages/orders/Orders";
-import Messages from "./pages/messages/Messages";
-import Message from "./pages/message/Message";
+
 import MyGigs from "./pages/myGigs/MyGigs";
 import {
   QueryClient,
   QueryClientProvider,
 } from "@tanstack/react-query";
-import Customize from "./pages/customize/Customize";
-import { Profile } from "./pages/profile/Profile";
+
 function App() {
   const queryClient = new QueryClient();
 
