@@ -39,6 +39,48 @@ export const cards = [
   
 ];
 
+export const cards3 = [
+  {
+    id: 1,
+    title: "Inventory Management System",
+    desc: "Surya wants",
+    img: "https://storage.googleapis.com/profit-prod/wp-content/uploads/2021/05/af5834f6-improving-material-management1.jpg",
+  },
+  {
+    id: 2,
+    title: "Voice over",
+    desc: "Harry wants",
+    img: "https://static.vecteezy.com/system/resources/previews/001/254/656/non_2x/hand-with-microphone-sketch-yellow-background-vector.jpg",
+    
+  },
+  {
+    id: 3,
+    title: "Video Editing Service",
+    desc: "Vamsi wants",
+    img: "https://www.learnupon.com/wp-content/uploads/Video-editing-basics-for-eLearning1024x512.jpg",
+  },
+  {
+    id: 4,
+    title: "Ad Video Actor",
+    desc: "Harish wants",
+    img: "https://media.istockphoto.com/id/1306139993/vector/backstage-of-filmmaking-scene-actor-rehearses-and-reads-script.jpg?s=612x612&w=0&k=20&c=2iyBgxy38W3j9-bpzk-VkfSa-IADO9qgR4IAECbrpw8=",
+  },
+  {
+    id: 5,
+    
+    title: "Logo Designer",
+    desc: "Vignesh wants",
+    img: "https://blog.appsumo.com/wp-content/uploads/2021/09/AS-blog-how-much-to-charge-for-a-logo-1536x614px.png",
+  },
+  {
+    id: 6,
+    title: "Data Entry",
+    desc: "Hire in",
+    img: "https://img.freepik.com/free-photo/closeup-hands-using-computer-laptop-with-screen-showing-analysis-data_53876-23014.jpg",
+  },
+  
+];
+
 export const cards2 = [
   {
     id: 1,
@@ -114,77 +156,84 @@ export const projects = [
   
 ];
 
-export const gigs = [
+export const projects2 = [
   {
     id: 1,
-    img: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/259895938/original/889b097b344d3f473af63c75dd6c22e569c60a2d/do-a-modern-minimalist-logo-desine.png",
-    pp: "./img/shockpic.jpg",
-    desc: "I will create good website. Please hire me.",
-    price: 6900,
-    star: 5,
-    username: "Shock",
+    img: "https://rrsg.s3.amazonaws.com/wp-content/uploads/2020/07/10021050/ym-2.jpg",
+    pp: "https://councils.forbes.com/profile/_next/image?url=https%3A%2F%2Fs3.amazonaws.com%2Fcco-avatars%2F858cb322-36db-4391-b3c7-6f2a3e1fb403.png&w=384&q=75",
+    cat: "Mentorship on How to become a CEO",
+    username: "Yi Ming Ng - AngelHacks CEO",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    pp: "https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    desc: "I will create ultra high quality character art with ai",
-    price: 79,
-    star: 5,
-    username: "Lannie Coleman",
+    img: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i2PdypEx4Its/v1/-1x-1.jpg",
+    pp: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i2PdypEx4Its/v1/-1x-1.jpg",
+    cat: "The secret to marketing you services",
+    username: "Jensen Huang",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    pp: "https://images.pexels.com/photos/1062280/pexels-photo-1062280.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    desc: "I will creating unique ai generated artworks mid journey ai artist",
-    price: 112,
-    star: 5,
-    username: "Carol Steve",
+    img: "https://www.scholastic.com/content/dam/parents/migrated-assets/blogs/header-images-5/rick-riordan.jpg",
+    pp: "https://www.scholastic.com/content/dam/parents/migrated-assets/blogs/header-images-5/rick-riordan.jpg",
+    cat: "How to become a Professional content writer",
+    username: "Rick Riordan",
   },
   {
     id: 4,
-    img: "https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    pp: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    desc: "I will create custom ai generated artwork using your photos",
-    price: 99,
-    star: 4,
-    username: "Don Weber",
+    img: "https://i.insider.com/587f85aef10a9a2a768b5afa?width=750&format=jpeg&auto=webp",
+    pp: "https://i.insider.com/587f85aef10a9a2a768b5afa?width=750&format=jpeg&auto=webp",
+    cat: "How to make money as a solo Game Developer",
+    username: "Gabe Newell",
+  },
+  
+  
+  
+];
+
+export const projects3 = [
+  {
+    id: 1,
+    img: "/img/new1.jpg",
+    pp: "https://councils.forbes.com/profile/_next/image?url=https%3A%2F%2Fs3.amazonaws.com%2Fcco-avatars%2F858cb322-36db-4391-b3c7-6f2a3e1fb403.png&w=384&q=75",
+    cat: "Networking 101",
+    username: "Yi Ming Ng - AngelHacks CEO",
   },
   {
-    id: 5,
-    img: "https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    pp: "https://images.pexels.com/photos/1771383/pexels-photo-1771383.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    desc: "I will recreate your dreams in high quality pictures",
-    price: 59,
+    id: 2,
+    img: "/img/new2.jpg",
+    pp: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i2PdypEx4Its/v1/-1x-1.jpg",
+    cat: "Secrets Of Digital Marketings",
+    username: "Jensen Huang",
+  },
+  {
+    id: 3,
+    img: "/img/new3.jpg",
+    pp: "https://www.scholastic.com/content/dam/parents/migrated-assets/blogs/header-images-5/rick-riordan.jpg",
+    cat: "Mastering the Art of Client Acquisition",
+    username: "Rick Riordan",
+  },
+  {
+    id: 4,
+    img: "/img/new4.jpg",
+    pp: "https://i.insider.com/587f85aef10a9a2a768b5afa?width=750&format=jpeg&auto=webp",
+    cat: "Spotlight - Showcase Your Talent",
+    username: "Gabe Newell",
+  },
+  
+  
+  
+];
+
+export const gigs = [
+  {
+    id: 1,
+    img: "https://assets.awwwards.com/awards/images/2021/09/creative-layouts-thumb3.jpg",
+    pp: "./img/surya4.png",
+    desc: "I will create a good Web App.",
+    price: 6900,
     star: 5,
-    username: "Audrey Richards",
+    username: "Surya",
   },
-  {
-    id: 6,
-    img: "https://images.pexels.com/photos/8100784/pexels-photo-8100784.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    pp: "https://images.pexels.com/photos/715546/pexels-photo-715546.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    desc: "I will create ai digital art illustration hyper realistic painting",
-    price: 79,
-    star: 4,
-    username: "Walton Shepard ",
-  },
-  {
-    id: 7,
-    img: "https://images.pexels.com/photos/6039245/pexels-photo-6039245.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    pp: "https://images.pexels.com/photos/720606/pexels-photo-720606.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    desc: "I will generate images with your prompts using ai dalle",
-    price: 89,
-    star: 5,
-    username: "Waverly Schaefer",
-  },
-  {
-    id: 8,
-    img: "https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    pp: "https://images.pexels.com/photos/1699159/pexels-photo-1699159.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    desc: "I will create custom art using midjourney generator",
-    price: 110,
-    star: 4,
-    username: "Wilton Hunt",
-  },
+  
+  
 ];
