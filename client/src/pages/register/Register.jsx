@@ -63,14 +63,14 @@ function Register() {
           <input
             name="username"
             type="text"
-            placeholder="johndoe"
+            placeholder="Username"
             onChange={handleChange}
           />
           <label htmlFor="">Email</label>
           <input
             name="email"
             type="email"
-            placeholder="email"
+            placeholder="Email"
             onChange={handleChange}
           />
           <label htmlFor="">Password</label>
@@ -81,15 +81,15 @@ function Register() {
           <input
             name="country"
             type="text"
-            placeholder="Usa"
+            placeholder="India"
             onChange={handleChange}
           />
           <button type="submit">Register</button>
         </div>
         <div className="right">
-          <h1>I want to become a seller</h1>
+          <h1>Become a Freelancer</h1>
           <div className="toggle">
-            <label htmlFor="">Activate the seller account</label>
+            <label htmlFor="">Activate freelancer account</label>
             <label className="switch">
               <input type="checkbox" checked={user.isSeller} onChange={handleSeller} />
               <span className="slider round"></span>
@@ -99,7 +99,7 @@ function Register() {
           <input
             name="phone"
             type="text"
-            placeholder="+1 234 567 89"
+            placeholder="Phone Number"
             onChange={handleChange}
           />
           <label htmlFor="">Description</label>

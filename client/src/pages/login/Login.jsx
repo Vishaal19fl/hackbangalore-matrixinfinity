@@ -50,7 +50,8 @@ function Login() {
             onChange={onChange}
           /> */}
 
-        <button type="submit">Login</button>
+<button type="submit" style={{ backgroundColor: '#004aad' }}>Login</button>
+
         {error && error}
       </form>
     </div>

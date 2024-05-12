@@ -24,14 +24,25 @@
     table {
       width: 100%;
 
+      .btn{
+        background-color: #004aad;
+        padding: 10px 10px;
+        color: white;
+        font-weight: 500;
+        width: fit-content;
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+      }
+
       tr {
         height: 50px;
         th {
           text-align: left;
         }
         td {
-          
-          sup{
+          sup {
             font-size: 12px;
           }
 
@@ -49,6 +60,43 @@
         &:nth-child(even) {
           background-color: #1dbf730f;
         }
+      }
+    }
+  }
+
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .modal-content {
+      position: relative;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 90%;
+      max-height: 50%;
+      overflow: auto;
+      text-align: center;
+
+      .close {
+        position: fixed;
+        top: 10px;
+        right: calc(50vw - 45px); /* Adjust based on the modal width */
+        font-size: 24px;
+        cursor: pointer;
+        padding: 5px 15px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        z-index: 1000; 
       }
     }
   }

@@ -69,22 +69,22 @@ const Add = () => {
   return (
     <div className="add">
       <div className="container">
-        <h1>Add New Gig</h1>
+        <h1>Add New Service</h1>
         <div className="sections">
           <div className="info">
             <label htmlFor="">Title</label>
             <input
               type="text"
               name="title"
-              placeholder="e.g. Necklace"
+              placeholder="e.g. Content Writing"
               onChange={handleChange}
             />
             <label htmlFor="">Category</label>
             <select name="cat" id="cat" onChange={handleChange}>
-              <option value="design">Pottery</option>
-              <option value="web">Jewellery</option>
-              <option value="animation">Paintings</option>
-              <option value="music">Sculptures</option>
+              <option value="design">Logo Design</option>
+              <option value="web">Web Development</option>
+              <option value="animation">Animation</option>
+              <option value="music">Music</option>
             </select>
             <div className="images">
               <div className="imagesInputs">
@@ -120,7 +120,7 @@ const Add = () => {
             <input
               type="text"
               name="shortTitle"
-              placeholder="e.g. Necklace"
+              placeholder="e.g. Content Writing"
               onChange={handleChange}
             />
             <label htmlFor="">Short Description</label>
@@ -132,9 +132,9 @@ const Add = () => {
               cols="30"
               rows="10"
             ></textarea>
-            <label htmlFor="">Delivery Time (e.g. 3 days)</label>
+            <label htmlFor="">Delivery Time </label>
             <input type="number" name="deliveryTime" onChange={handleChange} />
-            <label htmlFor=""> Stock Available</label>
+            <label htmlFor=""> Changes Limit</label>
             <input
               type="number"
               name="revisionNumber"
@@ -142,7 +142,7 @@ const Add = () => {
             />
             <label htmlFor="">Add Features</label>
             <form action="" className="add" onSubmit={handleFeature}>
-              <input type="text" placeholder="e.g. handcrafted" />
+              <input type="text" placeholder="e.g. SEO Optimized" />
               <button type="submit">add</button>
             </form>
             <div className="addedFeatures">

@@ -1,8 +1,8 @@
 import React from 'react'
-import "./GigCard2.scss"
+import "./ServiceCard2.scss"
 import { Link } from 'react-router-dom'
 
-export const GigCard2 = ({item}) => {
+export const ServiceCard2 = ({item}) => {
   return (
     <Link to="/gig/123" className='link'>
         <div className="gigCard">

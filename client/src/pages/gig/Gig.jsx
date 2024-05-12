@@ -5,7 +5,7 @@ import { Link, useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import newRequest from "../../utils/newRequest";
 import Reviews from "../../components/reviews/Reviews";
-import GooglePayButton from '@google-pay/button-react';
+
 import GooglePayButtonComponent from "../../components/googlePay/GooglePay";
 
 function Gig() {
@@ -145,10 +145,7 @@ function Gig() {
                 <img src="/img/clock.png" alt="" />
                 <span>{data.deliveryDate} Days Delivery</span>
               </div>
-              {/* <div className="item">
-                <img src="/img/recycle.png" alt="" />
-                <span>{data.revisionNumber} Revisions</span>
-              </div> */}
+              
             </div>
             <div className="features">
               {data.features.map((feature) => (
@@ -158,15 +155,7 @@ function Gig() {
                 </div>
               ))}
             </div>
-            <div className="btns">
-            <Link to={`http://127.0.0.1:5500/client/arview/arview.html`}>
-            <button className="btn1">View AR</button>
-            </Link>
-
-            <Link to="/customize">
-            <button className="btn1">Customize the product</button>
-            </Link>
-            </div>
+            
             
             <GooglePayButtonComponent price={data.price.toString()}/>
             {/* <Link to={`/pay/${id}`}>
