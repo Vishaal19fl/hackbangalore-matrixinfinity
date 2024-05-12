@@ -4,6 +4,8 @@ import newRequest from "../../utils/newRequest";
 import "./Navbar.scss";
 import GoogleTranslate from "../googleTranslate/GoogleTranslate";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import GeminiChat from "../../pages/chatbot/ChatBot";
+
 
 
 function Navbar() {
@@ -85,6 +87,10 @@ function Navbar() {
           <Link className="link" to="/orders">
                     Orders
                   </Link>
+
+          <Link className="link" to='/certifications'>{currentUser?.isSeller && <span>Certifications</span>}</Link>        
+
+           <Link className="link" to='/chatbot'>{!currentUser?.isSeller && <span>Chat with us</span>}</Link>        
           
           <Link className="link" to='/register?isSeller=true'>{!currentUser?.isSeller && <span>Apply as a Freelancer</span>}</Link>
 

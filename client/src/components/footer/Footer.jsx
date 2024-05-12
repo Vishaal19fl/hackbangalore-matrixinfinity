@@ -8,7 +8,7 @@ function Footer() {
       <div className="container">
         <div className="top">
           <div className="item">
-            <h2>Categories</h2>
+          <h2>Categories</h2>
             <span>Web Development</span>
             <span>Video Editing</span>
             <span>3D Modelling</span>
@@ -33,14 +33,14 @@ function Footer() {
             <h2>Support</h2>
             <span>Help & Support</span>
             <span>Trust & Safety</span>
-            <span>Selling on WavePoint</span>
-            <span>Buying on WavePoint</span>
+            <span>Freelancing on WavePoint</span>
+            <span>Purchasing on WavePoint</span>
           </div>
           <div className="item">
-            <h2>Community</h2>
+            <h2>Forum</h2>
           
-            <span>Community hub</span>
-            <span>Forum</span>
+            <span>WavePoint Hub</span>
+            <span>Mentors</span>
             <span>Events</span>
             <span>Blog</span>
             <span>Influencers</span>
@@ -48,11 +48,11 @@ function Footer() {
           </div>
           <div className="item">
             <h2>More From WavePoint</h2>
-            <span>WavePoint Multi Freelancer Terms</span>
-            <span>WavePoint Tech</span>
-            <span>WavePoint Guides</span>
+            <span>WavePoint Workshops</span>
+            <span>WavePoint Mentorships</span>
+            <span>WavePoint Virtual Events</span>
             <span>Get Inspired</span>
-          
+            <span>WavePoint Help</span>
            
           </div>
         </div>

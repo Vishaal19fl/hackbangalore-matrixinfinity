@@ -26,8 +26,8 @@ const PricingClient = () => {
     
     {
       name: 'Premium',
-      monthlyPrice: 199,
-      yearlyPrice: 2299,
+      monthlyPrice: 499,
+      yearlyPrice: 4500,
       description: "The Premium Plan provides advanced tools: collaborate, access exclusive resources, and get priority support.",
       icon1:'✅',  
       icon2:'✅',
@@ -54,8 +54,8 @@ const PricingClient = () => {
     
     {
       name: 'Premium',
-      monthlyPrice: 299,
-      yearlyPrice: 3299,
+      monthlyPrice: 799,
+      yearlyPrice: 8500,
       description: "The Premium Plan provides advanced tools: collaborate, access exclusive resources, and get priority support.",
       icon1:'✅',  
       icon2:'✅ Unimited',
