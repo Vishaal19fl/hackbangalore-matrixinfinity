@@ -10,24 +10,31 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Add from "./pages/add/Add";
 import Orders from "./pages/orders/Orders";
-
+import Messages from "./pages/messages/Messages";
+import Message from "./pages/message/Message";
 import MyGigs from "./pages/myGigs/MyGigs";
+
 import {
   QueryClient,
   QueryClientProvider,
 } from "@tanstack/react-query";
 
+import GeminiChat from "./pages/chatbot/ChatBot";
+
+import { Profile } from "./pages/profile/Profile";
+import { Gig2 } from "./pages/gig2/Gig2";
+import Certifications from "./pages/certifications/Certifications";
 function App() {
   const queryClient = new QueryClient();
 
   const Layout = () => {
     return (
       <div className="app">
-        
+        <QueryClientProvider client={queryClient}>
           <Navbar />
-          
-         
-        
+          <Outlet />
+          <Footer />
+        </QueryClientProvider>
       </div>
     );
   };
@@ -58,8 +65,12 @@ function App() {
           element: <Messages />,
         },
         {
-          path: "/message/:id",
+          path: "/message/123",
           element: <Message />,
+        },
+        {
+          path: "/certifications",
+          element: <Certifications />,
         },
         {
           path: "/add",
@@ -70,6 +81,10 @@ function App() {
           element: <Gig />,
         },
         {
+          path: "/gig/123",
+          element: <Gig2 />,
+        },
+        {
           path: "/register",
           element: <Register />,
         },
@@ -77,34 +92,14 @@ function App() {
           path: "/login",
           element: <Login />,
         },
-        {
-          path: "/pay/:id",
-          element: <Pay />,
-        },
-        {
-          path: "/success",
-          element: <Success />,
-        },
-        {
-          path: "/customize",
-          element: <Customize />,
-        },
-        {
-          path: "/community",
-          element: <Community />,
-        },
-        {
-          path: "/maps",
-          element: <Maps />,
-        },
+        
+        
+       
         {
           path: "/chatbot",
           element: <GeminiChat />,
         },
-        {
-          path: "/patent",
-          element: <Patent />,
-        },
+        
         {
           path: "/profile",
           element: <Profile />,
