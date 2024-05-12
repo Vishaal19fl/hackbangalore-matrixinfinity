@@ -41,7 +41,7 @@ const Certifications = () => {
     <div className="messages">
       <div className="container">
         <div className="title">
-          <h1>Messages</h1>
+          <h1>Certifications</h1>
         </div>
         <table>
           <thead>
